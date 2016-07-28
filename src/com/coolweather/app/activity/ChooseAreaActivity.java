@@ -91,6 +91,7 @@ public class ChooseAreaActivity extends Activity {
 			@Override
 			public void onItemClick(AdapterView<?> arg0, View view, int index,
 					long arg3) {
+				
 				if (currentLevel == LEVEL_PROVINCE) {
 					selectedProvince = provinceList.get(index);
 					queryCities();
